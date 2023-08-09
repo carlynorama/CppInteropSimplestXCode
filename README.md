@@ -14,6 +14,9 @@ Apple Swift version 5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)
 - https://developer.apple.com/documentation/Swift/MixingLanguagesInAnXcodeProject
 - https://developer.apple.com/documentation/swift/callingapisacrosslanguageboundaries
 
+## Related Repo
+- https://github.com/carlynorama/CxxInteropLibrary/
+
 
 ## Getting Started
 
@@ -76,4 +79,19 @@ int myFavoriteNumber() {
 #include "SimpleCxxFunctions.hpp"
 ```
 
+### Add test call to ContentView.swift
 
+```swift
+struct ContentView: View {
+    let number = myFavoriteNumber()
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, No. \(number)!")
+        }
+        .padding()
+    }
+}
+```
