@@ -11,6 +11,8 @@ Apple Swift version 5.9 (swiftlang-5.9.0.128.2 clang-1500.0.40.1)
 - https://developer.apple.com/documentation/Swift/MixingLanguagesInAnXcodeProject 
 - https://www.swift.org/documentation/cxx-interop/
 - https://www.swift.org/documentation/cxx-interop/project-build-setup/
+- https://developer.apple.com/documentation/Swift/MixingLanguagesInAnXcodeProject
+- https://developer.apple.com/documentation/swift/callingapisacrosslanguageboundaries
 
 
 ## Getting Started

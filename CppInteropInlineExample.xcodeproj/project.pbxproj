@@ -12,6 +12,7 @@
 		DADCED892A83E3E3003D359E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADCED882A83E3E3003D359E /* Assets.xcassets */; };
 		DADCED8D2A83E3E3003D359E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADCED8C2A83E3E3003D359E /* Preview Assets.xcassets */; };
 		DADCED9B2A83F1A3003D359E /* SimpleCxxFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DADCED992A83F1A3003D359E /* SimpleCxxFunctions.cpp */; };
+		DADCEDA02A8405B0003D359E /* SimpleSwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADCED9F2A8405B0003D359E /* SimpleSwiftFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DADCED982A83F1A3003D359E /* CppInteropInlineExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppInteropInlineExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		DADCED992A83F1A3003D359E /* SimpleCxxFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleCxxFunctions.cpp; sourceTree = "<group>"; };
 		DADCED9A2A83F1A3003D359E /* SimpleCxxFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleCxxFunctions.hpp; sourceTree = "<group>"; };
+		DADCED9F2A8405B0003D359E /* SimpleSwiftFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DADCED842A83E3DF003D359E /* CppInteropInlineExampleApp.swift */,
 				DADCED862A83E3DF003D359E /* ContentView.swift */,
 				DADCED992A83F1A3003D359E /* SimpleCxxFunctions.cpp */,
+				DADCED9F2A8405B0003D359E /* SimpleSwiftFunctions.swift */,
 				DADCED9A2A83F1A3003D359E /* SimpleCxxFunctions.hpp */,
 				DADCED882A83E3E3003D359E /* Assets.xcassets */,
 				DADCED8A2A83E3E3003D359E /* CppInteropInlineExample.entitlements */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADCED872A83E3DF003D359E /* ContentView.swift in Sources */,
+				DADCEDA02A8405B0003D359E /* SimpleSwiftFunctions.swift in Sources */,
 				DADCED9B2A83F1A3003D359E /* SimpleCxxFunctions.cpp in Sources */,
 				DADCED852A83E3DF003D359E /* CppInteropInlineExampleApp.swift in Sources */,
 			);

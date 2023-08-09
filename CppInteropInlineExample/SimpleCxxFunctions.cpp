@@ -6,9 +6,8 @@
 //
 
 #include "SimpleCxxFunctions.hpp"
+//#include "SimpleSwiftFunctions-Swift.h" why is this not made?
 
 int myFavoriteNumber() {
-    return 5;
+    return 12;
 }
-
-
